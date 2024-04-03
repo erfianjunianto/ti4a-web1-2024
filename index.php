@@ -8,6 +8,16 @@
 </head>
 <body>
     <h1>Pemrograman WEB 1</h1>
-    <p>Program Studi Teknik Informatika</p>
+    <p>
+        Program Studi Teknik Informatika
+        <ol type="1">
+            <li>HTML Dasar</li>
+            <li>Pembuatan FORM</li>
+            <li>PHP Dasar</li>
+            <li>Pengiriman Data</li>
+            <li>Templating</li>
+        </ol>
+    </p>
+
 </body>
 </html>
