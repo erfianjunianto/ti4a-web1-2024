@@ -11,9 +11,15 @@
     <h1>Pemrograman WEB 1</h1>
     
     <p> <!-- awal paragraph -->
-        Daftar Materi Pemrograman Web 1, Program Studi Teknik Informatika:
+        Daftar Materi Pemrograman Web 1, Program Studi Teknik Informatika:<br>
+        <!--  <a> adalah tag untuk hyperlink, membuka halaman/file lain -->
+        <!--  target="_blank" adalah untuk membuka tab baru -->
+        <a href="menu.php" target="_blank">Menu</a>
+
         <ol type="1">
-            <li>HTML Dasar</li>
+            <li>
+                <a href="html_dasar/heading.html">HTML Dasar - Heading</a>
+            </li>
             <li>Pembuatan FORM</li>
             <li>PHP Dasar</li>
             <li>Pengiriman Data</li>
