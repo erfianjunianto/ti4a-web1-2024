@@ -7,23 +7,23 @@
     <title>Register Akun</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="data.php" method="post">
         <label>Nama Lengkap:</label>
-        <input type="text" name="nama_lengkap">
+        <input type="text" name="nama_lengkap" value="">
 
         <br>
 
         <label>Jenis Kelamin:</label>
-        <input type="radio" name="j_kelamin"> Laki-Laki
-        <input type="radio" name="j_kelamin"> Perempuan
+        <input type="radio" name="j_kelamin" value="Laki-Laki"> Laki-Laki
+        <input type="radio" name="j_kelamin" value="Perempuan"> Perempuan
 
         <br>
         <label>Kabupaten/Kota:</label>
         <select name="kota">
-            <option value="kota_bandung">Kota Bandung</option>
-            <option value="kota_bandung">Bandung</option>
-            <option value="kota_bandung">Kabupaten Bandung Barat</option>
-            <option value="kota_bandung">Kota Cimahi</option>
+            <option value="Kota Bandung">Kota Bandung</option>
+            <option value="Bandung">Bandung</option>
+            <option value="Kab. Bandung Barat">Kabupaten Bandung Barat</option>
+            <option value="Kota Cimahi">Kota Cimahi</option>
         </select>
 
         <br>
@@ -31,7 +31,7 @@
         <textarea name="alamat" cols="30" rows="10"></textarea>
 
         <br>
-        <input type="button" value="Kirim">
+        <input type="submit" value="Kirim">
 
     </form>
 </body>
