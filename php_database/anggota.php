@@ -31,10 +31,10 @@
     $query = mysqli_query($conn, "SELECT * FROM anggota ORDER BY id ASC");
 
     ?>
-    <h2>Halaman</h2>
-    <h4>Daftar Anggota Perpustakaan</h4>
+    <h2 id="h2">Halaman</h2>
+    <h4 class="judul4">Daftar Anggota Perpustakaan</h4>
 
-    <a href="form_register.php">Tambah Anggota Baru</a> <br><br><br>
+    <a class="judul4" href="form_register.php">Tambah Anggota Baru</a> <br><br><br>
     <table>
         <tr>
             <th>No</th>
